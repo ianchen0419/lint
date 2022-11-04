@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   }
